@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Tạo form đơn giản</title>
     <style>p.indent{ padding-left: 1.4em }</style>
     <style>p.indent1{ padding-left: 4px }</style>
+    <link rel="stylesheet" href="BTcss.css">
+
 </head>
 <body>
-<h2> <span style="color: white; background-color: orangered; width: 300px">SỞ THÍCH CỦA BẠN</span> </h2>
+<link rel="stylesheet" type="text/css" href="BTcss.css"
+
 <form>
+<div class = "style1">
+
+<h2> <p  align="center" style="color: white; background-color: orangered; width: 300px">SỞ THÍCH CỦA BẠN</p> </h2>
     <span style="color: blue">Họ và tên </span> <input type="text" style="text-align: center"> <br>
     <p class="indent"><span style="color: blue">Email </span> <input type="email" style="text-align: center"><br>
 
@@ -23,6 +29,64 @@
     <br>
     <input value="Gửi thông điệp" type="submit">
     <input value="Nhập lại" type="reset">
+    <br><br>
+</div>
 </form>
+
+
+
+<div class= "style2">
+    <form>
+     <h2> <p align="left" style="color: orangered ; background-color: lightskyblue; width=50px"> Member Register </p> </h2>
+    <table>
+        <tr>
+            <td> Name </td>
+            <td> <input type="text" name="Infor"></td>
+        </tr>
+        <tr>
+            <td> Date of Birth </td>
+            <td> <input type="date" name="Infor"></td>
+        </tr>
+        <tr>
+            <td> Gender </td>
+            <td>
+                <label> <input name="Infor" type="radio"> Male</label>
+                <label> <input name="Infor" type="radio"> FeMale</label>
+            </td>
+        </tr>
+        <tr>
+            <td> Address</td>
+            <td> <input type="text" name="Infor" size = 30%></td>
+        </tr>
+        <tr>
+            <td> Class</td>
+            <td>
+                <select name="--Class--">
+                    <option value="20"> C0220H1</option>
+                    <option value="21"> C0221H1</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Email</td>
+            <td> <input name="email" type="email"></td>
+        </tr>
+        <tr>
+            <td> Tel</td>
+            <td> <input name="tel" type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <input name="name" value="Register" type="submit">
+            </td>
+            <td>
+                <input name="reset" value="Again" type="reset">
+            </td>
+        </tr>
+
+<form>
+</form>
+</div>
+
 </body>
 </html>
