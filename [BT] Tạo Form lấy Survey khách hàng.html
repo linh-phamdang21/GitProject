@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey </title>
+    <h2> Market Research Survey</h2>
+    <h5> Please take a few moments to complete this satisfaction survey</h5>
+    <hr>
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+What is your yearly income range?<br>
+<select>
+    <option value="0 - 25000"> 0 - 25000 </option>
+    <option value="25000 -50000"> 25000 - 50000 </option>
+    <option value="50000 - 100000"> 50000 - 100000 </option>
+    <option value="100000+"> 100000+ </option>
+</select><br><br>
+<strong>Gender Identity </strong><br>
+    <label><input name="gender" value="male" type="radio">Male</label><br>
+    <label><input name="gender" value="female" type="radio">Female</label><br>
+    <label><input name="gender" value="nonbinary" type="radio">Nonbinary</label><br>
+    <label><input name="gender" value="other" type="radio">Other</label><br>
+    <input class="myalign" type="text" name="gender" size="10%">
+    <br>
+<strong class=""> Which of the following products have your purchased in the last 2 months. Please check all that apply</strong>
+<br>
+    <label> <input name="product" value="1" type="checkbox"> Product 1</label><br>
+    <label><input name="product" value="2" type="checkbox"> Product 2</label><br>
+    <label><input name="product" value="3" type="checkbox"> Product 3</label>
+<br>
+
+<strong> How often would you yse our new product?</strong><br>
+<label><input name="time" value="daily" type="radio"> Daily </label><br>
+<label><input name="time" value="weekly" type="radio">Weekly</label><br>
+<label><input name="time" value="monthly" type="radio">Monthly</label>
+<br>
+<p class="myalign1"> <strong > What would you pay for the new product></strong> </p>
+$
+<table>
+    <tr>
+        <td>
+            <input name="dollars" value="dollars" type="number"> .
+        </td>
+        <td>
+            <input name="cents" value="cents" type="number">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Dollars
+        </td>
+        <td>
+            Cents
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
