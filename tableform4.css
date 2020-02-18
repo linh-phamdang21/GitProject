@@ -1,0 +1,32 @@
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    background: yellow;
+}
+
+td, th {
+    padding: 20px;
+
+}
+
+.trsize{
+    width: 20px;
+    height: 20px;
+}
+
+.border1{
+    border-top: none ;
+    border-left: none;
+    border-bottom: none;
+}
+
+
+.border2{
+    border-left: white;
+    border-top: white;
+    border-right: white;
+}
+.bordertop{
+    border: none;
+}
