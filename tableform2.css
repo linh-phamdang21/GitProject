@@ -1,0 +1,32 @@
+.h1font{
+    font-family: arial;
+    color: blue ;
+    align-items: center;
+}
+
+.align1{
+    margin-left: 410px;
+
+}
+
+table{
+    width: 50%;
+}
+
+.table1{
+    width: 80%;
+}
+
+.table2 {
+    border-collapse: collapse;
+    width: 50%;
+
+}
+.table2 td {
+    border: black 1px solid;
+    text-align: center;
+}
+.table2 th {
+    border: black 1px solid;
+    text-align: center;
+}
