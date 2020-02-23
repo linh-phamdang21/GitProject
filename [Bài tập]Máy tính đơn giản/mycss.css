@@ -1,0 +1,9 @@
+th , td {
+    width: 30px;
+}
+.container{
+    border: black 3px solid;
+    width: 130px;
+    align-content: center;
+    padding-bottom: -10px;
+}
